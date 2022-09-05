@@ -7,6 +7,7 @@ public class TimerScript : MonoBehaviour
 {
     public Text timerText;
     float timer;
+    
 
     // Start is called before the first frame update
     void Start()
