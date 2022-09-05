@@ -7,6 +7,7 @@ public class TimerScript : MonoBehaviour
 {
     public Text timerText;
     float timer;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,6 @@ public class TimerScript : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        timerText.text = Mathf.RoundToInt(timer).ToString();
+        timerText.text = 2;
     }
 }
