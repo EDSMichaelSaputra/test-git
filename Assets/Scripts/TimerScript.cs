@@ -19,6 +19,7 @@ public class TimerScript : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        timerText.text = 2;
+        timerText.text = "4";
+        //timerText.text = Mathf.RoundToInt(timer).ToString();
     }
 }
